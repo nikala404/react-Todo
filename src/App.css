@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main {
+  width: min-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15rem;
+}
+.parent_div {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+#name {
+  color: #007fdb;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.img_div {
+  position: relative;
+}
+.date {
+  color: #007fdb;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 60%;
+  left: 70%;
+}
+.day {
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.time {
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+}
+.input_div {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+#todo_input {
+  width: 70%;
+  display: flex;
+  padding: 0.75rem 11.8125rem 0.75rem 2.875rem;
+  align-items: center;
+  gap: 0.625rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #ebeff2;
+  border: none;
+}
+.svg_icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+#todo_input::placeholder {
+  display: flex;
+  color: #888;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add_todo {
+  border-radius: 0.3125rem;
+  background: #20eeb0;
+  display: flex;
+  width: 5.5rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6875rem;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+#todo_area {
+  margin-top: 36px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.todo h1 {
+  color: #0d0d0d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.todo p {
+  color: #888;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.parent_todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
